@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 fenetre = pygame.display.set_mode((640, 480), pygame.RESIZABLE)
 
-fond = pygame.image.load("./exemple/background.jpg").convert()
+fond = pygame.image.load("/Asset/pont.jpg").convert()
 continuer = 1
 while continuer:
     for event in pygame.event.get():
